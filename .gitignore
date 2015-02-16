@@ -10,3 +10,4 @@ memcache.php
 /nbproject/*
 _site
 .htaccess
+.DS_Store
