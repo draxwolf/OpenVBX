@@ -172,12 +172,14 @@
 							'class' => 'medium'
 						);
 						$options = array(
-							'en-gb' => 'British English',
-							'en' => 'English',
-							'fr' => 'French',
-							'de' => 'German',
-							'it' => 'Italian',
-							'es' => 'Spanish',
+							'en-AU' => 'Australian English',
+                                                        'en-gb' => 'British English',
+							'en-CA' => 'Canadian English',
+							'en-US' => 'US English',
+							'fr-FR' => 'French',
+							'de-DE' => 'German',
+							'it-IT' => 'Italian',
+							'es-ES' => 'Spanish',
 						);
 						echo t_form_dropdown($params, $options, $voice_language['value']);
 					?>
